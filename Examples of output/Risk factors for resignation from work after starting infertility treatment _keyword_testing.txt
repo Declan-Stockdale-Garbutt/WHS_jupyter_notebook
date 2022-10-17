@@ -1,0 +1,75 @@
+Risk factors for resignation from work after starting infertility treatment 
+among Japanese women JapanFemale Employment and Mental health in Assisted 
+reproductive technology JFEMA study
+
+
+
+
+
+
+KeyBERT extractor
+0.4083724021911621
+['resignation starting infertility', 'resigned starting infertility', 'workers undergoing infertility', 'women undergoing infertility', 'japan female employment', 'infertility duration work', 'resignation work japanese', 'fertility clinic japan', 'infertility treatments factors', 'women started infertility', 'undergoing infertility treatment', 'undergoing infertility', 'risk factors resignation', 'initiating infertility treatment', 'significantly associated resignation', 'factors associated resignation', 'started infertility treatment', 'women resigned starting', 'associated resignation work', 'starting infertility treatment']
+
+
+
+KeyBERT extra extractor
+0.543506383895874
+['infertility treatment', 'infertility treatments', 'infertility', 'infertility duration', 'resignation', 'female employment', 'reproductive technology study', 'japanese women', 'private fertility clinic', 'female patients', 'employer', 'workplace', 'risk factors', 'harassment', 'mental health', 'multivariable logistic regression models', 'women', 'work life', 'japan', 'psychological burden']
+
+
+
+KeyBERT specific extractor
+0.0840756893157959
+['infertility', 'fertility', 'reproductive', 'resignation', 'employer', 'employment', 'treatments', 'workplace', 'resigned', 'women', 'employed', 'treatment', 'patients', 'socioeconomic', 'health', 'clinical', 'support', 'clinic', 'harassment', 'questionnaire']
+
+
+
+text summarization
+
+
+
+Greedy 
+5.750032424926758
+ 1727 female patients who attended a private fertility clinic in Japan participated in the Japan-Female Employment and Mental health in a study . 179 (16.7%)  subsequently resigned from work after starting infertility treatment . Factors related to education, infertility duration and work environment were significantly associated with resignation .
+
+
+
+Sampling 
+6.312915086746216
+ A total of 1727 female patients who attended a private fertility clinic in Japan participated in the Japan-Female Employment and Mental health in a study . 179 (16.7%)  subsequently resigned from work after starting infertility treatment . Factors related to education, infertility duration and work environment were significantly associated with resignation .
+
+
+
+greedy summariser_xsum
+4.769337177276611
+One-sixth of Japanese women who started infertility treatment resigned from work after starting the treatment, a study suggests.
+
+
+
+Sampling summariser_xsum
+5.022569179534912
+ One-sixth of Japanese women who started infertility treatment resigned from work after starting the treatment, a study suggests.
+
+
+
+
+
+
+sentiment analysis
+0.36232876777648926
+[{'label': 'NEGATIVE', 'score': 0.9852194786071777}]
+
+
+
+Getting nouns using Textblob
+0.0
+
+
+
+spacy_ner_results trf
+1.2191088199615479
+[['Japanese', 'NORP'], ['1727', 'CARDINAL'], ['Japan', 'GPE'], ['1727', 'CARDINAL'], ['1075', 'CARDINAL'], ['1075', 'CARDINAL'], ['179', 'CARDINAL'], ['16.7%', 'PERCENT'], ['1.58', 'CARDINAL'], ['95%', 'PERCENT'], ['1.07', 'CARDINAL'], ['2.34', 'CARDINAL'], ['1.82', 'CARDINAL'], ['95%', 'PERCENT'], ['1.15', 'CARDINAL'], ['2.89', 'CARDINAL'], ['2.65', 'CARDINAL'], ['95%', 'PERCENT'], ['1.61', 'CARDINAL'], ['4.37', 'CARDINAL'], ['1.71', 'CARDINAL'], ['95%', 'PERCENT'], ['0.98', 'CARDINAL'], ['2.99', 'CARDINAL'], ['1.91', 'CARDINAL'], ['95%', 'PERCENT'], ['1.28', 'CARDINAL'], ['2.86', 'CARDINAL'], ['One-sixth', 'CARDINAL']]
+default ner 
+2.484259605407715
+[]

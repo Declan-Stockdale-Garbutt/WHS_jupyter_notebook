@@ -1,0 +1,111 @@
+COVID19 is having a destructive impact on healthcare workers mental 
+wellbeing
+
+
+
+BACKGROUND: The coronavirus disease 2019 (COVID-19) may aggravate workplace 
+conditions that impact health-care workers' mental health. However, it can also 
+place other stresses on workers outside of their work. This study determines the 
+effect of COVID-19 on symptoms of negative and positive mental health and the 
+workforce's experience with various sources of support. Effect modification by 
+demographic variables was also studied.
+METHODS: A cross-sectional survey study, conducted between 2 April and 4 May 
+2020 (two waves), led to a convenience sample of 4509 health-care workers in 
+Flanders (Belgium), including paramedics (40.6%), nurses (33.4%), doctors 
+(13.4%) and management staff (12.2%). About three in four were employed in 
+university and acute hospitals (29.6%), primary care practices (25.7%), 
+residential care centers (21.3%) or care sites for disabled and mental health 
+care. In each of the two waves, participants were asked how frequently (on a 
+scale of 0-10) they experienced positive and negative mental health symptoms 
+during normal circumstances and during last week, referred to as before and 
+during COVID-19, respectively. These symptoms were stress, hypervigilance, 
+fatigue, difficulty sleeping, unable to relax, fear, irregular lifestyle, 
+flashback, difficulty concentrating, feeling unhappy and dejected, failing to 
+recognize their own emotional response, doubting knowledge and skills and 
+feeling uncomfortable within the team. Associations between COVID-19 and mental 
+health symptoms were estimated by cumulative logit models and reported as odds 
+ratios. The needed support was our secondary outcome and was reported as the 
+degree to which health-care workers relied on sources of support and how they 
+experienced them.
+RESULTS: All symptoms were significantly more pronounced during versus before 
+COVID-19. For hypervigilance, there was a 12-fold odds (odds ratio 12.24, 95% 
+confidence interval 11.11-13.49) during versus before COVID-19. Positive 
+professional symptoms such as the feeling that one can make a difference were 
+less frequently experienced. The association between COVID-19 and mental health 
+was generally strongest for the age group 30-49 years, females, nurses and 
+residential care centers. Health-care workers reported to rely on support from 
+relatives and peers. A considerable proportion, respectively, 18 and 27%, 
+reported the need for professional guidance from psychologists and more support 
+from their leadership.
+CONCLUSIONS: The toll of the crisis has been heavy on health-care workers. Those 
+who carry leadership positions at an organizational or system level should take 
+this opportunity to develop targeted strategies to mitigate key stressors of 
+health-care workers' mental well-being.
+
+
+
+KeyBERT extractor
+0.361328125
+['workers mental health', 'care workers mental', 'mental health workforce', 'workplace conditions impact', 'stressors health care', 'health workforce experience', 'negative mental health', 'positive mental health', 'workers mental', 'aggravate workplace conditions', 'health care workers', 'covid 19 mental', 'conditions impact health', 'mental health symptoms', 'workplace conditions', 'stressors health', '19 mental health', 'stresses workers', 'health place stresses', 'health workforce']
+
+
+
+KeyBERT extra extractor
+0.5224757194519043
+['positive mental health', 'negative mental health symptoms', 'mental health', 'care workers', 'health symptoms', 'professional symptoms', 'workplace', 'stress', 'key stressors', 'health', 'other stresses', 'hypervigilance', 'workers', 'workforce', 'primary care practices', 'mental well', 'nurses', 'coronavirus disease', 'psychologists', 'symptoms']
+
+
+
+KeyBERT specific extractor
+0.10009026527404785
+['coronavirus', 'covid', 'health', 'stress', 'stressors', 'workforce', 'stresses', 'nurses', 'fatigue', 'paramedics', 'workplace', 'support', 'management', 'hospitals', 'staff', 'workers', 'work', 'symptoms', 'psychologists', 'doctors']
+
+
+
+text summarization
+
+
+
+Greedy 
+6.447866678237915
+ The coronavirus disease 2019 (COVID-19) may aggravate workplace conditions that impact health-care workers' mental health . However, it can also place other stresses on workers outside of their work .
+
+
+
+Sampling 
+8.082349300384521
+ The coronavirus disease 2019 (COVID-19) may aggravate workplace conditions that impact health-care workers' mental health . But it can also place other stresses on workers outside of their work . This study determines the effect of COVID-2019 on symptoms of negative and positive mental health and the workforce's experience with various sources of support .
+
+
+
+greedy summariser_xsum
+6.161604642868042
+Research into the coronavirus disease 2019 (COVID-19) in Belgium suggests that its impact on mental health is greater than previously thought.
+
+
+
+Sampling summariser_xsum
+6.44386100769043
+Research into the coronavirus disease 2019 (COVID-19) in Belgium suggests that its impact on health-care workers' mental well-being may be greater than previously thought.
+
+
+
+
+
+
+sentiment analysis
+
+
+
+Getting nouns using Textblob
+0.0
+['background', 'coronavirus disease', 'covid-19', 'aggravate workplace conditions', 'impact health-care workers', 'mental health', 'study determines', 'covid-19', 'positive mental health', "workforce 's experience", 'various sources', 'effect', 'demographic variables', 'methods', 'cross-sectional survey study', 'april', 'may', 'convenience sample', 'health-care workers', 'flanders', 'belgium', 'management staff', 'acute hospitals', 'primary care practices', 'residential care centers', 'care sites', 'mental health care', 'negative mental health symptoms', 'normal circumstances', 'covid-19', 'irregular lifestyle', 'own emotional response', 'covid-19', 'mental health symptoms', 'cumulative logit models', 'odds ratios', 'secondary outcome', 'health-care workers', 'results', 'covid-19', '12-fold odds', 'odds ratio', '% confidence interval 11.11-13.49', 'covid-19', 'positive', 'professional symptoms', 'covid-19', 'mental health', 'age group', 'residential care centers', 'health-care', 'considerable proportion', 'professional guidance', 'conclusions', 'health-care workers', 'leadership positions', 'system level', 'mitigate key stressors', 'health-care workers']
+
+
+
+spacy_ner_results trf
+1.6775271892547607
+[['2019', 'DATE'], ['between 2 April and 4 May \n2020', 'DATE'], ['two', 'CARDINAL'], ['4509', 'CARDINAL'], ['Flanders', 'GPE'], ['Belgium', 'GPE'], ['40.6%', 'PERCENT'], ['33.4%', 'PERCENT'], ['13.4%', 'PERCENT'], ['12.2%', 'PERCENT'], ['About three', 'CARDINAL'], ['four', 'CARDINAL'], ['29.6%', 'PERCENT'], ['25.7%', 'PERCENT'], ['21.3%', 'PERCENT'], ['two', 'CARDINAL'], ['0-10', 'CARDINAL'], ['last week', 'DATE'], ['12', 'CARDINAL'], ['12.24', 'CARDINAL'], ['95%', 'PERCENT'], ['11.11', 'CARDINAL'], ['30-49 years', 'DATE'], ['18 and', 'PERCENT'], ['27%', 'PERCENT']]
+default ner 
+3.1618754863739014
+[]

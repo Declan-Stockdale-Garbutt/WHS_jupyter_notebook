@@ -1,0 +1,110 @@
+Issues and Solutions in Mental Health and Work Managers Perspectives of a 
+Large Health Organization
+
+
+
+Mental health problems in the workplace represent an important issue for public 
+organizations, particularly for people working in the health sector who have 
+been confronted to multiple changes following the recent health system reform in 
+Quebec. Managers need to take into consideration employee mental health within 
+their organization in order to ensure productive and healthy employees. Managers 
+are thus called upon to take on a role that includes prevention (e.g., detection 
+of early warning signs), team management (e.g., working on recognition at work) 
+and coaching employees in their tasks when returning to work following a sick 
+leave due to a common mental disorder (e.g., depression). Although there is an 
+abundant literature on the manager's role in the prevention of mental health 
+problems in the workplace and the work rehabilitation of employees on sick leave 
+due to a common mental disorder, to our knowledge, little research has been 
+conducted on these issues regarding managers' perceptions working in large 
+health organizations. Furthermore, potential solutions have not been explored in 
+this context. Objective The purpose of the study is to document, from the 
+managers' perspective within a large health organization in Quebec, the issues 
+pertaining to mental health and work (from prevention to work rehabilitation), 
+and the solutions to deal with them. Method As part of a participatory research 
+project, researchers and collaborators of a large health organization conducted 
+focus groups with managers on the theme of mental health and work: issues and 
+solutions. A total of 83 managers spread out in 10 focus groups participated in 
+this study. Results From these focus groups, 6 broad categories of issues 
+related to mental health in the workplace emerged: 1) the management framework, 
+2) human, financial, material and information resource management, 3) management 
+of mental health and tools, 4), stakeholders' collaboration, roles and actions, 
+5) employees' sense of belonging to the organization and, 6) work-life balance. 
+From these broad conceptual categories, 23 specific issues and associated 
+solutions emerged. Conclusions From this study, the general consensus was the 
+need to have access to a series of tools (e.g., toolbox) in order to assist 
+managers across the different steps, from sick-leave prevention, to 
+rehabilitation and return to work. The results also highlighted the need to 
+better define the roles of each stakeholder in this process. These results bring 
+a new light to the issues and potential solutions perceived by managers dealing 
+with mental health and work issues in a large health organization. These results 
+could eventually be replicated in other settings or large organizations.
+
+
+
+KeyBERT extractor
+0.29326677322387695
+['mental health workplace', 'employee mental health', 'mental health work', 'management mental health', 'health work prevention', 'prevention mental health', 'mental health organization', 'health problems workplace', 'dealing mental health', 'prevention work rehabilitation', 'health work issues', 'role prevention mental', 'sick leave prevention', 'rehabilitation employees sick', 'health workplace', 'employee mental', 'pertaining mental health', 'health organization quebec', 'mental health', 'mental health tools']
+
+
+
+KeyBERT extra extractor
+0.5034582614898682
+['mental health', 'mental health problems', 'healthy employees', 'leave prevention', 'work rehabilitation', 'health organizations', 'large health organization', 'sick leave', 'depression', 'prevention', 'team management', 'rehabilitation', 'employees', 'workplace', 'common mental disorder', 'health sector', 'tasks', 'management', 'work issues', 'managers']
+
+
+
+KeyBERT specific extractor
+0.08307528495788574
+['management', 'managers', 'health', 'employees', 'workplace', 'work', 'depression', 'organizations', 'organization', 'rehabilitation', 'employee', 'disorder', 'manager', 'working', 'stakeholders', 'coaching', 'reform', 'stakeholder', 'prevention', 'collaboration']
+
+
+
+text summarization
+
+
+
+Greedy 
+4.687264442443848
+ Mental health problems in the workplace represent an important issue for public organizations . Managers need to take into consideration employee mental health within their organization in order to ensure productive and healthy employees .
+
+
+
+Sampling 
+7.262604236602783
+ Mental health problems in the workplace represent an important issue for public organizations, especially for people working in the health sector . Managers need to take into consideration employee mental health within their organization in order to ensure productive and healthy employees . The study document the issues and potential solutions to mental health and work issues in a large health organization in Quebec .
+
+
+
+greedy summariser_xsum
+6.010468006134033
+Research into mental health and work in a large health organization in Quebec, Quebec, shows that managers need to take a greater role in the prevention and rehabilitation of employees with a common mental disorder.
+
+
+
+Sampling summariser_xsum
+5.897362947463989
+ A study into managers' perceptions about mental health and work issues in a large health organization in Quebec has produced results that bring a new light to the issue.
+
+
+
+
+
+
+sentiment analysis
+0.47943639755249023
+[{'label': 'POSITIVE', 'score': 0.8009448051452637}]
+
+
+
+Getting nouns using Textblob
+0.0
+['mental', 'health problems', 'important issue', 'public organizations', 'health sector', 'multiple changes', 'recent health system reform', 'quebec', 'managers', 'consideration employee', 'mental health', 'healthy employees', 'managers', 'early warning signs', 'team management', 'common mental disorder', 'abundant literature', "manager 's role", 'mental health problems', 'work rehabilitation', 'common mental disorder', 'large health organizations', 'furthermore', 'potential solutions', 'objective', 'large health organization', 'quebec', 'mental health', 'method', 'participatory research project', 'large health organization', 'focus groups', 'mental health', 'focus groups', 'focus groups', 'broad categories', 'mental health', 'management framework', 'information resource management', 'mental health', 'work-life balance', 'broad conceptual categories', 'specific issues', 'conclusions', 'general consensus', 'different steps', 'sick-leave prevention', 'new light', 'potential solutions', 'mental health', 'large health organization', 'large organizations']
+
+
+
+spacy_ner_results trf
+1.5063703060150146
+[['Quebec', 'GPE'], ['Quebec', 'GPE'], ['83', 'CARDINAL'], ['10', 'CARDINAL'], ['6', 'CARDINAL'], ['1', 'CARDINAL'], ['2', 'CARDINAL'], ['3', 'CARDINAL'], ['4', 'CARDINAL'], ['5', 'CARDINAL'], ['6', 'CARDINAL'], ['23', 'CARDINAL']]
+default ner 
+3.128845453262329
+[]

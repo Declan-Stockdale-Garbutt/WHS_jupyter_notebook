@@ -1,0 +1,86 @@
+Return to Work after Mental Disorders  A Scoping Review
+
+
+
+Publisher: HINTERGRUND: Erwerbstätige mit einer psychischen Erkrankung haben 
+nach einer psychischen Krise oft massive Schwierigkeiten, ihre Arbeit 
+wiederaufzunehmen. Ziel des Reviews ist, einen internationalen Überblick über 
+Return-to-Work (RTW)-Interventionen zu geben.
+METHODE: Es wurde eine systematische Literaturrecherche durchgeführt.
+ERGEBNISSE: 88 Artikel wurden gesichtet und 29 Studien eingeschlossen. Die 
+untersuchten RTW-Interventionen setzen an 3 Punkten an: 1) Individuum, 2) 
+Arbeitsumfeld und 3) Versorgungsstruktur. Für den überwiegenden Teil zeigt sich, 
+dass die Maßnahmen eine positive Wirkung erzielen.
+SCHLUSSFOLGERUNGEN: Obgleich nicht alle Interventionen auf den deutschen Kontext 
+übertragen werden können, so geben sie wichtige Hinweise, wie ein 
+Unterstützungsangebot an der Schnittstelle zwischen Gesundheitssystem und Arbeit 
+gestaltet werden kann.
+
+
+
+KeyBERT extractor
+0.3262965679168701
+['work rtw interventionen', 'untersuchten rtw interventionen', 'rtw interventionen', 'rtw interventionen setzen', 'rtw interventionen zu', 'return work rtw', 'arbeitsumfeld und versorgungsstruktur', 'work rtw', 'interventionen zu', 'wirkung erzielen schlussfolgerungen', 'interventionen zu geben', 'nicht alle interventionen', 'interventionen setzen', 'schwierigkeiten ihre arbeit', 'interventionen', 'untersuchten rtw', 'interventionen auf', 'schlussfolgerungen obgleich nicht', 'alle interventionen', 'interventionen auf den']
+
+
+
+KeyBERT extra extractor
+0.463421106338501
+['obgleich nicht alle interventionen auf den deutschen kontext', 'interventionen setzen', 'untersuchten rtw', 'schlussfolgerungen', 'einer psychischen erkrankung', 'überwiegenden teil zeigt sich', 'nach einer psychischen krise oft', 'positive wirkung erzielen', 'es wurde eine systematische literaturrecherche durchgeführt', 'übertragen werden können', 'versorgungsstruktur', 'ziel des reviews ist', 'arbeit', 'ihre arbeit', 'überblick über', 'der schnittstelle zwischen gesundheitssystem', 'wiederaufzunehmen', 'wie ein', 'massive schwierigkeiten', 'arbeitsumfeld']
+
+
+
+KeyBERT specific extractor
+0.06105494499206543
+['interventionen', 'psychischen', 'gesundheitssystem', 'systematische', 'work', 'arbeit', 'erkrankung', 'wirkung', 'schwierigkeiten', 'rtw', 'überwiegenden', 'unterstützungsangebot', 'erwerbstätige', 'return', 'literaturrecherche', 'eingeschlossen', 'untersuchten', 'versorgungsstruktur', 'reviews', 'schlussfolgerungen']
+
+
+
+text summarization
+
+
+
+Greedy 
+9.531670093536377
+
+
+
+Sampling 
+6.088538408279419
+ Reviews Reviews is a review of Return-to-Work (RTW-intervention) Interventionen setzen an 3 Punkten an: Individuum, Arbeitsumfeld, Versorgungsstruktur . 88 Artikel wurden gesichtet und 29 Studien eingeschlossen .
+
+
+
+greedy summariser_xsum
+4.514106512069702
+ A review of a book on return-to-work (RTW) wedi dweud ei ganfod.
+
+
+
+Sampling summariser_xsum
+4.805370330810547
+ A review of a new book on Arbeit-to-work wedi dweud eu ganfod.
+
+
+
+
+
+
+sentiment analysis
+0.2532310485839844
+[{'label': 'NEGATIVE', 'score': 0.9877198338508606}]
+
+
+
+Getting nouns using Textblob
+0.0
+['hintergrund', 'erwerbstätige', 'mit einer psychischen', 'erkrankung', 'haben nach einer psychischen', 'krise', 'schwierigkeiten', 'arbeit', 'ziel', 'reviews', 'einen internationalen überblick über', 'return-to-work', 'rtw', '-interventionen zu geben', 'methode', 'es', 'wurde eine systematische', 'literaturrecherche', 'ergebnisse', 'artikel', 'wurden gesichtet und', 'studien', 'die', 'rtw-interventionen', 'punkten', 'individuum', 'arbeitsumfeld', 'versorgungsstruktur', 'für', 'den überwiegenden', 'teil', 'zeigt sich', 'maßnahmen', 'wirkung', 'schlussfolgerungen', 'obgleich', 'nicht alle', 'interventionen', 'auf den deutschen', 'kontext', 'übertragen werden können', 'geben sie wichtige', 'hinweise', 'wie ein', 'unterstützungsangebot', 'schnittstelle', 'gesundheitssystem', 'arbeit', 'gestaltet werden kann']
+
+
+
+spacy_ner_results trf
+1.187079668045044
+[['HINTERGRUND', 'ORG'], ['88', 'CARDINAL'], ['29', 'CARDINAL'], ['3', 'CARDINAL'], ['1', 'CARDINAL'], ['2', 'CARDINAL'], ['3', 'CARDINAL']]
+default ner 
+2.0909013748168945
+['##lle']

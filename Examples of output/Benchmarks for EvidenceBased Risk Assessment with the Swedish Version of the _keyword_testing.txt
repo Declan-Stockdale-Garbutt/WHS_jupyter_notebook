@@ -1,0 +1,75 @@
+Benchmarks for EvidenceBased Risk Assessment with the Swedish Version of the 
+4Item Psychosocial Safety Climate Scale
+
+
+
+
+
+
+KeyBERT extractor
+0.23221230506896973
+['psychosocial safety climate', 'compliance occupational safety', 'risk assessment workplaces', 'occupational safety health', 'safety climate questionnaire', 'psychosocial safety', 'occupational safety', 'safety health osh', 'reliability workplace level', 'safety climate', 'safety health', 'psc risk levels', 'compliance occupational', 'usefulness swedish psc', 'climate questionnaire psc', 'questionnaire psc', 'organizational compliance occupational', 'version psychosocial safety', 'health osh regulations', 'employees sweden aged']
+
+
+
+KeyBERT extra extractor
+0.46442222595214844
+['psychosocial safety climate questionnaire', 'occupational safety', 'psc risk levels', 'organizational compliance', 'risk levels', 'good osh practices', 'reliability', 'fair osh practices', 'poor osh practices', 'workplace', 'regulations', 'stress', 'job satisfaction', 'risk', 'validity', 'workplaces', 'health', 'swedish version', 'sweden', 'reliable measure']
+
+
+
+KeyBERT specific extractor
+0.056051015853881836
+['safety', 'workplaces', 'workplace', 'employees', 'occupational', 'health', 'psychosocial', 'burnout', 'risk', 'stress', 'compliance', 'leadership', 'managerial', 'sweden', 'questionnaire', 'reliability', 'work', 'organizational', 'assessment', 'regulations']
+
+
+
+text summarization
+
+
+
+Greedy 
+5.104642152786255
+ The purpose of the study was to validate the short version of The Psychosocial Safety Climate Climate questionnaire (PSC-4, Dollard, 2019) Benchmarks for three PSC risk levels were developed . The results support the validity and usefulness of the Swedish version of PSC-4 .
+
+
+
+Sampling 
+5.054597616195679
+ The Swedish version of PSC-4 can be regarded as a valid and reliable measure for research and practical use for risk assessment at workplaces . Benchmarks for three PSC risk levels were developed using  organizational compliance with Occupational Safety and Health (OSH) regulations .
+
+
+
+greedy summariser_xsum
+3.737399101257324
+ The results of a study on workplace stress and burnout have been published in the Journal of Occupational Health and Safety.
+
+
+
+Sampling summariser_xsum
+5.106645345687866
+ The results of a study on the Swedish version of a psychological safety questionnaire (PSC-4) support the validity and usefulness of the questionnaire.
+
+
+
+
+
+
+sentiment analysis
+0.2552311420440674
+[{'label': 'POSITIVE', 'score': 0.9938446283340454}]
+
+
+
+Getting nouns using Textblob
+0.0
+['present study', 'short version', 'psychosocial safety climate', 'psc-4', 'dollard', 'risk levels', 'sweden', 'cross-sectional', 'random sample', 'sweden', 'n =', 'convenience sample', 'non-managerial employees', 'n =', 'benchmarks', 'psc', 'risk levels', 'organizational compliance', 'occupational safety', 'osh', 'results support', 'swedish psc-4', 'osh', 'osh', 'average score', 'osh', 'psc-4', 'osh', 'furthermore', 'psc-4', 'workplace level construct', 'quantitative demands', 'work engagement', 'job satisfaction', 'swedish', 'psc-4', 'reliable measure', 'practical use', 'risk assessment']
+
+
+
+spacy_ner_results trf
+0.8667886257171631
+[['Dollard', 'ORG'], ['2019', 'DATE'], ['Sweden', 'GPE'], ['1', 'CARDINAL'], ['Sweden', 'GPE'], ['25-65 years', 'DATE'], ['2847', 'CARDINAL'], ['2', 'CARDINAL'], ['94', 'CARDINAL'], ['3066', 'CARDINAL'], ['three', 'CARDINAL'], ['Swedish', 'NORP'], ['Swedish', 'NORP']]
+default ner 
+1.8106470108032227
+[]
